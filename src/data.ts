@@ -1,6 +1,49 @@
 export function getData() {
   const data = [
     {
+      product: "Blackwater Park",
+      artist: "Opeth",
+      category: "Progressive Metal",
+      year: "2001",
+      status: "active",
+      available: 10,
+      incoming: 30,
+      image: "blackwater_park",
+      price: 50,
+      sold: 20,
+      priceIncrease: 10, // in percentage
+      variants: 3,
+      variantDetails: [
+        {
+          title: "Blackwater Park",
+          available: 3,
+          format: "LP, Album, Reissue",
+          label: "Music For Nations",
+          cat: "MFN 300",
+          country: "Worldwide",
+          year: "2021",
+        },
+        {
+          title: "Blackwater Park",
+          available: 5,
+          format: "Blu-Ray, Album, Reissue, Dolby Atmos",
+          label: "Music For Nations",
+          cat: "BR 300",
+          country: "Worldwide",
+          year: "2021",
+        },
+        {
+          title: "Blackwater Park",
+          available: 2,
+          format: "CD, Album, Reissue, Remastered",
+          label: "Music For Nations",
+          cat: "CD 300",
+          country: "Worldwide",
+          year: "2021",
+        },
+      ],
+    },
+    {
       product: "Rumours",
       artist: "Fleetwood Mac",
       category: "Soft Rock",
